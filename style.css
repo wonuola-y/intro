@@ -82,6 +82,11 @@ line-height: 20px;
     box-shadow: 0 7px rgb(247, 95, 95);
 
 }
+a{
+    text-decoration: none;
+    color: white;
+    
+}
 @media  screen and (min-width: 500px) {
    body{
        background-image: url(./images/bg-intro-desktop.png);
