@@ -106,7 +106,9 @@ line-height: 20px;
      width: 40vw;
      height: 100vh;
  }
- .second-width{
+  .second-class{
      width:40vw ;
+     padding: 20px;
+     margin-top: 30px;
  }
 }
