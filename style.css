@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+   
+   
+  
+}
+body{
+    background-color:  hsl(0, 100%, 74%);
+    background-image: url(./images/bg-intro-mobile.png);
+   background-size: 100%;
+   font-family: 'Poppins'
+}
+li{
+    list-style: none;
+    padding: 10px;
+   
+ 
+}
+input{
+    width: 100%;
+    border: 0.04px gray solid;
+    padding: 18px 24px;
+    border-radius: 5px;
+}
+h2{
+    margin-top: 80px;
+   padding: 0px 50px;
+}
+h2,.first-class{
+    color: white;
+    text-align: center;
+font-size: 21px;
+word-spacing: 3px;
+}
+div{
+    padding: 10px;
+}
+button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px hsl(154, 57%, 42%);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color: hsl(154, 97%, 64%);
+}
+form{
+background-color: white;
+padding: 21px;
+border-radius: 15px;
+box-shadow: 0 7px rgb(253, 105, 105);
+width: 50vw;
+
+}
+:placeholder-shown{
+    font-size: 18px;
+    font-weight: 700;
+    color: gray;
+}
+span{
+    color:  hsl(0, 100%, 74%);
+}
+.txt{
+    color: gray;
+    text-align: center;
+}
+.purple{
+    background-color:  hsl(248, 32%, 49%) ;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+line-height: 20px;
+    border-radius: 10px;
+    margin-bottom: 21px;
+    box-shadow: 0 7px rgb(247, 95, 95);
+
+}
+.err-icon{
+    background-image: url(./images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 99%;
+}
+p{
+    margin: 0;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@media  screen and (min-width: 900px) {
+   body{
+       background-image: url(./images/bg-intro-desktop.png);
+background-repeat: no-repeat;
+   }
+   form{
+       width: 45vw;
+       border: 2px solid black;
+   }
+.container{
+    
+     display: flex;
+     justify-content: space-around;
+    
+ }
+ h2{
+     font-size: 45px;
+     text-align: start;
+     margin-top: 100px;
+ }
+ .purple{
+     width: 45vw;
+ }
+ .p{
+     margin: 50px;
+     max-width: 40w;
+ }
+ .first-class{
+     text-align: start;
+     margin: 30px;
+     width: 50vw;
+ 
+ }
+ .second-class{
+     width:50vw ;
+     padding: 20px;
+     margin-top: 30px;
+ }
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+}
