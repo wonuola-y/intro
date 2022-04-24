@@ -56,7 +56,7 @@ background-color: white;
 padding: 21px;
 border-radius: 15px;
 box-shadow: 0 7px rgb(253, 105, 105);
-width: 50vw;
+width: 100%;
 
 }
 :placeholder-shown{
