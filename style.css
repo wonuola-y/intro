@@ -72,6 +72,7 @@ span{
     text-align: center;
 }
 .purple{
+    margin-top: 20px;
     background-color:  hsl(248, 32%, 49%) ;
     color: white;
     text-align: center;
